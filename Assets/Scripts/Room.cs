@@ -44,7 +44,6 @@ public class Room : MonoBehaviour
             health = Mathf.Clamp(health + currentHealthDelta, 0f, maxHealth);
             Debug.Log("Health: " + health);
         }
-
     }
 
     void UpdateHealthbar()
